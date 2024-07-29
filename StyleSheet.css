@@ -1,0 +1,96 @@
+﻿#homepage{
+    font-family: Georgia;
+    background-color:turquoise;
+    background-image:url(/Photos/background.jpg);
+   background-size: cover;
+    }
+a {
+    margin-left: 500px;
+    color: black;
+    opacity: 70%;
+    font-weight: bolder;
+    font-size: 35px;
+    display: inline;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkgreen ;
+}
+
+.topmost {
+    font-size: 150px;
+    font-family:'Book Antiqua';
+    color: saddlebrown;
+    text-align: center;
+   }
+
+.contact{
+    font-family: 'Century Gothic';
+    font-size:30px;
+    margin-left:250px;
+    opacity:70%;
+}
+#skills{
+    font-size: 20px;
+    font-weight:100;
+    background-color:darkslategrey;
+}
+.container {
+    display: flex;
+    box-sizing: border-box;
+    padding:10px;
+}
+.column {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    height: 550px;
+    width: 100%;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+.firstcolumn {
+    background-color: black;
+    margin-left:50px;
+    color: snow;
+    opacity:80%;
+}
+.secondcolumn {
+    background-color: antiquewhite;
+    background-color: black;
+    color: snow;
+    opacity: 80%;
+}
+.thirdcolumn {
+    background-color: floralwhite;
+    background-color: black;
+    color: snow;
+    opacity: 80%;
+}
+.image{
+    height:50%;
+    width:100%;
+    padding:0;
+    margin: 0;
+}
+header{
+    font-size:40px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    color:aliceblue;
+}
+h2{
+    font-weight:50;
+    font-family:'Segoe UI';
+}
+p{
+    font-family:'Segoe UI';
+    font-size:medium;
+}
